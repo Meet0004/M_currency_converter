@@ -1,0 +1,215 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Edu AU VIC WA NT Hand", cursive; 
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+:root{
+    --coolTamatar : rgb(233, 186, 186);
+    --tamatar : rgb(234, 69, 69);
+    --azure: azure;
+}
+
+p{ 
+    
+    text-align: center; 
+    font-weight: bold;
+}
+
+body{
+    background-color: var(--coolTamatar);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+#topHeading{
+    margin: 40px 10px 20px;
+    text-align: center;
+    font-size: rem;
+}
+
+#enterVal{
+    border:none;
+    padding:6px 20px;
+    width:100px;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight:bolder;
+    margin: 5px 0px 0px 0px;
+}
+#convertedValue{
+    border:none;
+    padding:6px 20px;
+    width:100px;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: bolder;
+    margin: 5px 0px 0px 0px;
+}
+/* .dropdown{
+    height:300px;
+    width:800px;
+    /* border: 2px outset var(--tamatar); *//*
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    
+
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 50px;
+    border-image: linear-gradient(to bottom right, rgb(237, 111, 111), rgb(205, 79, 79), rgb(176, 74, 227), rgb(125, 0, 188)) 1;
+
+    /* padding: 1rem;
+    color: white;
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      red, 
+      rgba(127, 11, 11, 0)
+    ) 1 100%; *//*
+} */
+.dropdown {
+    height: 300px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    position: relative;
+    padding: 1rem;
+}
+
+.dropdown::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 60px;
+    padding: 4px; /* Adjust based on your desired border width */
+    background: linear-gradient(to bottom right, rgb(237, 111, 111), rgb(205, 79, 79), rgb(176, 74, 227), rgb(125, 0, 188));
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor; 
+    mask-composite: exclude; 
+}
+
+.dropdown > * {
+    position: relative;
+}
+
+.from{
+    height:250px;
+    width:250px;
+    background-color: var(--tamatar);
+    border-radius:110px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    margin-right:60px;
+
+}
+button:hover{
+    color : var(--tamatar);
+}
+#converter{
+    text-decoration: none;
+    border:none;
+    background-color: var(--coolTamatar);
+}
+.to{
+    height:250px;
+    width:250px;
+    background-color: var(--tamatar);
+    border-radius:45%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    margin-left:60px;
+}
+
+.select-container img{
+    max-width:3rem;
+}
+.select-container{
+    padding:1px;
+    display: flex;
+    width:7.5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--azure);
+    border-radius:0.5rem;
+}
+
+
+
+select{
+    margin-left:5px;
+    border: none;
+    background-color:var(--azure);
+    cursor: pointer;
+}
+
+.dropdown i{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#GER{
+    height: 3rem;
+    background-color: #af4d98;
+    color:white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 15px;
+    padding: 0px 20px;
+}
+
+footer{
+    margin:250px 10px 0px;
+    display:flex;
+    align-items: center;
+}
+footer div{
+    font-weight: 700;
+    margin:0px 6px 0px;
+    cursor:pointer;
+}
+
+
+
+#prices {
+    height: 40px;
+    width: auto; /* Let the width adjust to the content */
+    background-color: chocolate;
+    border-radius: 20px;
+    display: none; 
+    color: black;
+    padding: 0px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Align items vertically in the center */
+    justify-content: center; /* Ensure text is centered horizontally */
+    gap: 5px; /* Add space between the text and date */
+    transition: 2s;
+}
+
+#actualDate {
+    display: inline; /* Ensure date displays inline */
+}*{ font-weight: bold;}
+
