@@ -20,7 +20,6 @@
 }
 
 p{ 
-    
     text-align: center; 
     font-weight: bold;
 }
@@ -137,20 +136,16 @@ button:hover{
     border-radius:0.5rem;
 }
 
-
-
 select{
     margin-left:5px;
     border: none;
     background-color:var(--azure);
     cursor: pointer;
 }
-
 .dropdown i{
     font-size: 1.5rem;
     cursor: pointer;
 }
-
 #GER{
     height: 3rem;
     background-color: #af4d98;
@@ -160,7 +155,6 @@ select{
     border-radius: 15px;
     padding: 0px 20px;
 }
-
 footer{
     margin:250px 10px 0px;
     display:flex;
@@ -172,26 +166,23 @@ footer div{
     cursor:pointer;
 }
 
-
-
 #prices {
     height: 40px;
     width: auto; /* Let the width adjust to the content */
     background-color: var(--chocolaty);
     border-radius: 20px;
-    display: none; 
     color: var(--black);
     padding: 0px 10px;
     text-align: center;
     display: flex;
     flex-direction: row;
-    align-items: center; /* Align items vertically in the center */
-    justify-content: center; /* Ensure text is centered horizontally */
-    gap: 5px; /* Add space between the text and date */
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
     transition: 2s;
 }
-
 #actualDate {
-    display: inline; /* Ensure date displays inline */
-}*{ font-weight: bold;}
+    display: inline;
+}
+*{ font-weight: bold;}
 
