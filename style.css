@@ -167,7 +167,7 @@ footer div{
 }
 
 #prices {
-    cursor:  auto;
+    cursor: text;
     height: 40px;
     width: auto; /* Let the width adjust to the content */
     background-color: var(--chocolaty);
